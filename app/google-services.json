@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "493733726049",
+    "project_id": "ar-ecommerce-68d8c",
+    "storage_bucket": "ar-ecommerce-68d8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493733726049:android:0f112375ab2acd5f4aa720",
+        "android_client_info": {
+          "package_name": "com.example.sceneformar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493733726049-0sor4p0ftekh09082pjnlpe6ioa6i52a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwd1uNrjq5RJc-fhULz6uVp0VuVO6R1mQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493733726049-0sor4p0ftekh09082pjnlpe6ioa6i52a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
