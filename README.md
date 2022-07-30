@@ -16,10 +16,9 @@
 
 1. Download and install the below embedded apk in your Android device(Google play Services AR app should be installed from play store),
    https://drive.google.com/file/d/1Eey42zd1rLolW-Obn_VLPPrjip7FPn8n/view?usp=sharing
-                
-                or           
+               OR           
 3. Git clone the repositoty in Android studio and run.
-                or          
+               OR      
 3. Download zip and open project in Android studio.
 
 ### Reference:
