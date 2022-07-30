@@ -113,6 +113,28 @@ class MainActivity : AppCompatActivity() {
                     drawerLayout.closeDrawers()
 
                 }
+                R.id.order-> {
+
+                    val appName = "Metamask"
+                    val packageName = "io.metamask"
+                    var intent = packageManager.getLaunchIntentForPackage(packageName)
+                    if (intent != null) {
+                        Toast.makeText(this,
+                            "Set Metamask app as your default browser for transaction\n", Toast.LENGTH_LONG).show()
+                        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://flipkartgrid.vercel.app"))
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                        startActivity(Intent.createChooser(intent,"USE METAMASK ONLY"))
+                    } else {
+                        // Bring user to the market or let them choose an app?
+                        intent = Intent(Intent.ACTION_VIEW)
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                        Toast.makeText(this,
+                            "$appName app is not found.", Toast.LENGTH_SHORT).show()
+                        intent.data = Uri.parse("market://details?id=$packageName")
+                        startActivity(intent)
+                    }
+
+                }
             }
             return@setNavigationItemSelectedListener true
         }

@@ -16,6 +16,10 @@
             android:id="@+id/scanner"
             android:icon="@drawable/ic_scan"
             android:title="AR-QR Scanner" />
+        <item
+            android:id="@+id/order"
+            android:icon="@drawable/ic_order"
+            android:title="Your orders" />
     </group>
 
 </menu>
