@@ -7,6 +7,8 @@
 
 ## Preview:
 
+![1](https://user-images.githubusercontent.com/90695071/181925633-06a18c60-9acb-4b82-b23a-79305ac51ae5.png)
+![2](https://user-images.githubusercontent.com/90695071/181925646-ef757d46-0b53-4eaf-a7e1-e0122236faed.png)
 
 
 
