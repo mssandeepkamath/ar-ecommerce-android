@@ -13,10 +13,21 @@
 
 
 ### Usage:
-1. Download the apk embedded in the repositoy
-                or
-2. Git clone the repositoty in Android studio and run.
+
+1. Install the below embedded apk,
+
+   https://drive.google.com/file/d/1Eey42zd1rLolW-Obn_VLPPrjip7FPn8n/view?usp=sharing
+       
+                  or
+                  
+3. Git clone the repositoty in Android studio and run.
+
                  or
+                 
 3. Download zip and open project in Android studio.
+
+
+
+
 
 
