@@ -1,6 +1,6 @@
 # Grid_4.0_Android
 
-## A dummy Android Ecommerce app consisting of features such has
+### A dummy Android Ecommerce app consisting of features such has,
 * Buy/Sell products in metamask app.
 * 3-D rendering of products using Sceneform AR core.
 * Scan QR from website for AR view.
