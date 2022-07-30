@@ -4,6 +4,14 @@
     package="com.example.sceneformar">
     <!-- This permits the user to access Camera -->
     <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <queries>
+        <package android:name="io.metamask" />
+    </queries>
     <!--
 This helps to check a specific feature in the phone's hardware,
         here it is OpenGlES version. Sceneform needs OpenGLES Version 3.0 or later
@@ -29,7 +37,9 @@ Indicates that this app requires Google Play Services for AR.
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
-
+        <activity
+            android:name=".WebActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -47,9 +57,10 @@ Indicates that this app requires Google Play Services for AR.
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
+
         <activity
             android:name=".ARActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

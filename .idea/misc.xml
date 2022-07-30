@@ -3,14 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mssan/AndroidStudioProjects/SceneformAr/app/src/main/res/drawable-anydpi/ic_scan.xml" value="0.1245" />
         <entry key="..\:/Users/mssan/AndroidStudioProjects/SceneformAr/app/src/main/res/layout/activity_drawer_header.xml" value="0.2" />
         <entry key="..\:/Users/mssan/AndroidStudioProjects/SceneformAr/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/mssan/AndroidStudioProjects/SceneformAr/app/src/main/res/layout/activity_product_details.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/mssan/AndroidStudioProjects/SceneformAr/app/src/main/res/layout/activity_web.xml" value="0.16417272338606242" />
         <entry key="..\:/Users/mssan/AndroidStudioProjects/SceneformAr/app/src/main/res/layout/fragment_home.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/mssan/AndroidStudioProjects/SceneformAr/app/src/main/res/layout/fragment_product.xml" value="0.16417272338606242" />
         <entry key="..\:/Users/mssan/AndroidStudioProjects/SceneformAr/app/src/main/res/layout/fragment_product_details.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/mssan/AndroidStudioProjects/SceneformAr/app/src/main/res/layout/fragment_scan.xml" value="0.16075245831551946" />
+        <entry key="..\:/Users/mssan/AndroidStudioProjects/SceneformAr/app/src/main/res/layout/fragment_website.xml" value="0.16417272338606242" />
         <entry key="..\:/Users/mssan/AndroidStudioProjects/SceneformAr/app/src/main/res/layout/product_item.xml" value="0.16417272338606242" />
         <entry key="..\:/Users/mssan/AndroidStudioProjects/SceneformAr/app/src/main/res/menu/drawer_navigation_menu.xml" value="0.1" />
+        <entry key="..\:/Users/mssan/AndroidStudioProjects/SceneformAr/app/src/main/res/menu/scan.xml" value="0.16417272338606242" />
       </map>
     </option>
   </component>

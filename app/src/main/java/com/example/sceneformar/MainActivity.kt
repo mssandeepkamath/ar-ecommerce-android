@@ -1,11 +1,18 @@
 package com.example.sceneformar
 
+
 import android.content.Intent
 import android.net.Uri
+import android.os.Build.VERSION_CODES.S
 import android.os.Bundle
+import android.os.Handler
+import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.webkit.WebViewClient
 import android.widget.FrameLayout
+import android.widget.Toast
+import androidx.annotation.NonNull
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -15,7 +22,9 @@ import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.navigation.NavigationView
 
+
 class MainActivity : AppCompatActivity() {
+
 
     lateinit var drawerLayout: DrawerLayout
     lateinit var coordinatorLayout: CoordinatorLayout
@@ -73,16 +82,35 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.website -> {
 
-                    val intent = Intent(Intent.ACTION_VIEW)
-                    intent.data = Uri.parse("https://studybear-79c4e.web.app/contact")
-                    drawerLayout.closeDrawers()
-                    startActivity(intent)
+                    val appName = "Metamask"
+                    val packageName = "io.metamask"
+//            openApp(activity as Context, appName, packageName)
+                    var intent = packageManager.getLaunchIntentForPackage(packageName)
+                    if (intent != null) {
+                        Toast.makeText(this,
+                            "Set Metamask app as your default browser for transaction\n", Toast.LENGTH_LONG).show()
+                        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://flipkartgrid.vercel.app"))
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                        startActivity(Intent.createChooser(intent,"USE METAMASK ONLY"))
+                    } else {
+                        // Bring user to the market or let them choose an app?
+                        intent = Intent(Intent.ACTION_VIEW)
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                        Toast.makeText(this,
+                            "$appName app is not found.", Toast.LENGTH_SHORT).show()
+                        intent.data = Uri.parse("market://details?id=$packageName")
+                        startActivity(intent)
+                    }
+
                 }
 
-                R.id.ar -> {
+                R.id.scanner -> {
 
-                    val intent = Intent(this, ARActivity::class.java)
-                    startActivity(intent)
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.lytFrame, ScanFragment(), "Scan")  .addToBackStack("Scan")
+                        .commit()
+                    supportActionBar?.title = "AR-QR scanner"
+                    drawerLayout.closeDrawers()
 
                 }
             }
@@ -97,12 +125,31 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.title = "Study Bear"
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main_menu,menu)
+        return super.onCreateOptionsMenu(menu)
     }
 
 
+
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (item.itemId == android.R.id.home) {
-            drawerLayout.openDrawer(GravityCompat.START)
+
+        when (item.itemId) {
+            android.R.id.home->{
+                drawerLayout.openDrawer(GravityCompat.START)
+            }
+
+            R.id.shareButton -> {
+                supportFragmentManager.beginTransaction()
+                    .replace(R.id.lytFrame, ScanFragment(), "Scan") .addToBackStack("Scan")
+                    .commit()
+                supportActionBar?.title = "AR-QR scanner"
+
+            }
         }
         return super.onOptionsItemSelected(item)
     }

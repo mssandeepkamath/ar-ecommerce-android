@@ -13,9 +13,9 @@
             android:icon="@drawable/ic_website"
             android:title="Website" />
         <item
-            android:id="@+id/ar"
-            android:icon="@drawable/ic_ar"
-            android:title="AR View" />
+            android:id="@+id/scanner"
+            android:icon="@drawable/ic_scan"
+            android:title="AR-QR Scanner" />
     </group>
 
 </menu>

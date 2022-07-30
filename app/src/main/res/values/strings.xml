@@ -4,4 +4,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="open_drawer">open</string>
     <string name="close_drawer">close</string>
+    <string name="chooser_title">USE METAMASK ONLY</string>
 </resources>

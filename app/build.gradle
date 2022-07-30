@@ -43,4 +43,5 @@ dependencies {
     implementation 'com.google.ar:core:1.32.0'
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'com.github.yuriy-budiyev:code-scanner:2.3.2'
 }
