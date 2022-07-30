@@ -11,11 +11,11 @@
         <item
             android:id="@+id/website"
             android:icon="@drawable/ic_website"
-            android:title="Website" />
+            android:title="Buy/Sell" />
         <item
             android:id="@+id/scanner"
             android:icon="@drawable/ic_scan"
-            android:title="AR-QR Scanner" />
+            android:title="AR-QR scanner" />
         <item
             android:id="@+id/order"
             android:icon="@drawable/ic_order"

@@ -13,12 +13,15 @@
 
         <ImageView
             android:id="@+id/img_home"
-            android:layout_margin="@dimen/_10sdp"
-            android:layout_width="@dimen/_100sdp"
+            android:layout_width="@dimen/_150sdp"
             android:layout_height="@dimen/_100sdp"
             android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
             android:scaleType="centerCrop"
-            android:src="@drawable/augmented_reality" />
+            android:src="@drawable/flipkart_grid" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,7 +30,7 @@
             android:layout_toEndOf="@+id/img_home"
             android:fontFamily="@font/roboto"
             android:singleLine="true"
-            android:text="AR Ecommerce"
+            android:text="@string/app_name"
             android:textColor="@color/black"
             android:textSize="@dimen/_17sdp"
             android:textStyle="bold" />

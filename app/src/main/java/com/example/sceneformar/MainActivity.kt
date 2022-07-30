@@ -121,7 +121,7 @@ class MainActivity : AppCompatActivity() {
                     if (intent != null) {
                         Toast.makeText(this,
                             "Set Metamask app as your default browser for transaction\n", Toast.LENGTH_LONG).show()
-                        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://flipkartgrid.vercel.app"))
+                        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://flipkartgrid.vercel.app/products"))
                         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                         startActivity(Intent.createChooser(intent,"USE METAMASK ONLY"))
                     } else {
