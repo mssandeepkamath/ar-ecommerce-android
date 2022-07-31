@@ -1,4 +1,4 @@
-# Grid_4.0_Android:
+# Flipkart Grid_4.0_Android:
 
 ### A dummy Android Ecommerce app consisting of features such has,
 * Buy/Sell products in metamask app.
