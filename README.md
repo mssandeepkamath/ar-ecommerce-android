@@ -1,9 +1,18 @@
-# Flipkart Grid_4.0_Android:
+# Grid_4.0 Submission on Blockchain based Ecommerce Android by team Brogrammers
 
-### A dummy Android Ecommerce app consisting of features such has,
-* Buy/Sell products in metamask app.
-* 3-D rendering of products using Sceneform AR core.
+
+## Team Members
+* Karthik Pai - ISE Dept in RV College of Engineering -> Github Repo: https://github.com/kptriescoding
+* Rakshith Hegde - ISE Dept in RV College of Engineering ->Github Repo: https://github.com/RakshithDHegde
+* MS Sandeep Kamath - ISE Dept in RV College of Engineering -> Github Repo: https://github.com/mssandeepkamath/
+
+### A dummy Ecommerce Web app consisting of features such has,
+* Buy products in Any any website with metamask Based on Ropsten TestNet.
+* Transfer Products feautures present in our website
+* 3-D rendering of products using app for mobiles.
 * Scan QR from website for AR view.
+* Reward system which in the form of lottery can be held regularly by sellers to award buyers who bought our products
+* Basic Seller GUI so sellers can verify warranties and hold auctions and withdraw Eths
 
 ## Preview:
 
@@ -23,9 +32,13 @@
 
 ### Reference:
 
-https://github.com/google-ar/sceneform-android-sdk (Status: Inactive)
+* Live demo in https://flipkartgrid.vercel.app/
 
-https://developer.android.com/guide
+* Check out the Web App code in https://github.com/RakshithDHegde/Grid_4.0_Web
+
+* The Link to the demo is: https://www.youtube.com/watch?v=U3z-g4FgZS0
+
+* The Link to presentation is: https://www.canva.com/design/DAFH6VUw7K8/fb0JkUMVpUqKjKMO6g02Uw/view
 
 
 
