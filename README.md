@@ -6,7 +6,7 @@
 * Rakshith Hegde - ISE Dept in RV College of Engineering ->Github Repo: https://github.com/RakshithDHegde
 * MS Sandeep Kamath - ISE Dept in RV College of Engineering -> Github Repo: https://github.com/mssandeepkamath/
 
-### A dummy Ecommerce Web app consisting of features such has,
+### A dummy Ecommerce app consisting of features such has,
 * Buy products in Any any website with metamask Based on Ropsten TestNet.
 * Transfer Products feautures present in our website
 * 3-D rendering of products using app for mobiles.
