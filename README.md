@@ -1,4 +1,4 @@
-# Grid_4.0 Submission on Blockchain based Ecommerce Android by team Brogrammers
+# Flipkart Grid 4.0 AR + Blockchain Ecommerce Application.
 
 
 ## Team Members
