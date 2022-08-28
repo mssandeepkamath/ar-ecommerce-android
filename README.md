@@ -3,11 +3,11 @@
 
 ## Team Members:
 
-## Web Application
+### Web Application
 * Karthik Pai - ISE Dept in RV College of Engineering -> Github Repo: https://github.com/kptriescoding
 * Rakshith Hegde - ISE Dept in RV College of Engineering ->Github Repo: https://github.com/RakshithDHegde
 
-## Android Application:
+### Android Application:
 * MS Sandeep Kamath - ISE Dept in RV College of Engineering -> Github Repo: https://github.com/mssandeepkamath/
 
 ### A dummy Ecommerce app consisting of features such has,
