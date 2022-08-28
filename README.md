@@ -1,4 +1,4 @@
-# Flipkart Grid 4.0 AR + Blockchain Ecommerce Application.
+# Flipkart Grid 4.0 --> AR + Blockchain Ecommerce Application.
 
 
 ## Team Members
