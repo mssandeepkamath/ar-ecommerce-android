@@ -44,6 +44,12 @@
 
 * The Link to presentation is: https://www.canva.com/design/DAFH6VUw7K8/fb0JkUMVpUqKjKMO6g02Uw/view
 
+# LICENSE:
+
+                             Apache License
+                       Version 2.0, January 2004
+                    http://www.apache.org/licenses/
+
 
 
 
