@@ -1,12 +1,14 @@
 # AR + Blockchain Ecommerce Application.
 
 
-## Team Members:
+## Contributors:
 
-### Android Application:
+### Android Application(AR):
+
 * MS Sandeep Kamath - ISE Dept in RV College of Engineering -> Github Repo: https://github.com/mssandeepkamath/
 
-### Web Application
+### Web Application(Block-chain):
+
 * Karthik Pai - ISE Dept in RV College of Engineering -> Github Repo: https://github.com/kptriescoding
 * Rakshith Hegde - ISE Dept in RV College of Engineering ->Github Repo: https://github.com/RakshithDHegde
 
@@ -35,7 +37,7 @@
                OR      
 3. Download zip and open project in Android studio.
 
-### Reference:
+### Useful links:
 
 * Live demo in https://flipkartgrid.vercel.app/
 
