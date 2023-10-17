@@ -2,20 +2,6 @@
 
 An innovative ecommerce application that combines Augmented Reality (AR) and Blockchain technologies to provide a unique shopping experience.
 
-## Contributors
-
-### Android Application (AR)
-
-* MS Sandeep Kamath - ISE Dept, RV College of Engineering
-  Github Repo: [https://github.com/mssandeepkamath/](https://github.com/mssandeepkamath/)
-
-### Web Application (Blockchain)
-
-* Karthik Pai - ISE Dept, RV College of Engineering
-  Github Repo: [https://github.com/kptriescoding](https://github.com/kptriescoding)
-* Rakshith Hegde - ISE Dept, RV College of Engineering
-  Github Repo: [https://github.com/RakshithDHegde](https://github.com/RakshithDHegde)
-
 ## Preview
 
 ![Preview Image 1](https://user-images.githubusercontent.com/90695071/181933417-28928579-1f7d-4cce-9e8a-937374d17a81.png)
@@ -37,6 +23,21 @@ An innovative ecommerce application that combines Augmented Reality (AR) and Blo
 2. Clone the repository in Android Studio and run the project.
    OR
 3. Download the ZIP file and open the project in Android Studio.
+
+## Contributors
+
+### Android Application (AR)
+
+* MS Sandeep Kamath - ISE Dept, RV College of Engineering
+  Github Repo: [https://github.com/mssandeepkamath/](https://github.com/mssandeepkamath/)
+
+### Web Application (Blockchain)
+
+* Karthik Pai - ISE Dept, RV College of Engineering
+  Github Repo: [https://github.com/kptriescoding](https://github.com/kptriescoding)
+* Rakshith Hegde - ISE Dept, RV College of Engineering
+  Github Repo: [https://github.com/RakshithDHegde](https://github.com/RakshithDHegde)
+
 
 ## Useful Links
 
